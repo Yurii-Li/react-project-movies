@@ -1,0 +1,22 @@
+
+.ThemeSwitcher{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+}
+
+.ThemeSwitcher > button{
+    border-radius: 30%;
+    border: none;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+.dark:hover{
+    background: black;
+}
+
+.light:hover{
+    background: #7446D7FF;
+}

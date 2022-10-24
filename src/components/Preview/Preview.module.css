@@ -1,0 +1,50 @@
+.wrapper {
+    max-width: 95%;
+    margin:  0 auto;
+    color: var(--text-color);
+}
+
+.wrapper>a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.wrapperImg{
+position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapperImg > img{
+    width: 94%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.content{
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+
+.overview{
+    display: block;
+    display: -webkit-box;
+    max-width: 40%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+@media (max-width: 576px) {
+    .overview{
+        display: none;
+    }
+}

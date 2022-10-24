@@ -1,0 +1,26 @@
+.UserInfo{
+    display: flex;
+    align-items: center;
+}
+
+.myPhoto{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .name{
+        display: none;
+    }
+    .myPhoto{
+        margin-right: 10px;
+    }
+}
+

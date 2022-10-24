@@ -1,0 +1,48 @@
+.Header{
+    display: flex;
+    background: var(--background-color-header);
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover, .dropdown:hover {
+    background: var(--background-color-link-btn-hover);
+}
+
+
+
+
+@media (max-width: 576px) {
+    .Header{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .navbar{
+        order: 3;
+    }
+    .search{
+        order: 1;
+    }
+    .themeSwitcher{
+        order: 2;
+    }
+    .userInfo{
+        order: 0;
+    }
+
+}
+

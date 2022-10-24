@@ -1,0 +1,10 @@
+
+.GenreBadge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background: silver;
+}

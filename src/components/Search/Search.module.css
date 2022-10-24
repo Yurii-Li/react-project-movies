@@ -1,0 +1,14 @@
+.input {
+    padding: 7px 20px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .input {
+        width: 100%;
+    }
+}

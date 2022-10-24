@@ -1,0 +1,56 @@
+.NavPages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.nav > button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+
+}
+
+.arrowImg{
+    width: 30px;
+    height: 30px;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.numPage{
+    border-radius: 10px;
+    background-color: #7446D7;
+    color: white;
+    border: none;
+    margin: 2px;
+    width: 40px;
+    height: 30px;
+
+}
+
+.currentPage{
+    border-radius: 10px;
+    background-color: #7446D7;
+    color: white;
+    border: none;
+    margin: 2px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}

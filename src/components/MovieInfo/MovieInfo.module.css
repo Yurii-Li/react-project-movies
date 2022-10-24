@@ -1,0 +1,38 @@
+
+.MovieInfo {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 10px;
+    color: var(--text-color);
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
+
+
+.poster {
+    border-radius: 5px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 576px) {
+    .title {
+        text-align: center;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        align-items: center;
+    }
+}
